@@ -1,5 +1,9 @@
 package T6;
 
+//
+//
+//
+
 import java.util.Scanner;
 public class Main6 {
 	
