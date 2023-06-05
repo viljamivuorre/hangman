@@ -1,11 +1,5 @@
 package dev.m3s.programming2.homework4;
 
-// Yritin toteuttaa pääohjelman syötteen aluksi scannerilla ja sen jälkeen consolella ja lopuksi taas scannerilla.
-// Kumpikin toimii oikein kun testaan ohjelmaani omalla koneella mutta pipeline ei syötä 
-// pääohjelmassa scannerille mitään arvoa ja siksi ohjelmasta ei tullut edes mitään palautetta
-// päätin mukata ohjelmani syöttämään pelkän välilyönnin guess() metodille jotta pipeline antaa jonkinlaista palutetta
-// testeistä.
-
 
 //import java.io.File;
 import java.util.Scanner;
@@ -58,7 +52,7 @@ public class Main {
                 Character c = ' ';
                 try {
                     System.out.println("Guess a letter: ");
-                    c = sc.next().charAt(0);  //miksi ei muka toimi?????
+                    c = sc.next().charAt(0);
                 } catch (Exception e) {
                 }
                 hangman.guess(c);
